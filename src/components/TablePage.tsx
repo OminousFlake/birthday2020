@@ -68,7 +68,7 @@ const TablePage = (props: IProps) => {
             </div>
             {isSuccess 
             ? <>
-                <p>Yeah</p>
+                <p>Твой подарок белка спрятала в Венеции</p>
                 <button onClick={props.goToNextStep} className="button success_button">
                     Вперед
                 </button>

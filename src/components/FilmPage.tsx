@@ -43,14 +43,14 @@ const films = [
     },
 ];
 
-// const absolutelyWrongAnswer = 'カーラ';
-const absolutelyWrongAnswer = '1';
-// const nextTaskButtonText = 'さらに';
-// const checkButtonText = '確認';
-// const successText = 'ピポは贈り物を盗んだ';
-const nextTaskButtonText = 'next';
-const checkButtonText = 'check';
-const successText = 'yeah';
+const absolutelyWrongAnswer = 'カーラ';
+const nextTaskButtonText = 'さらに';
+const checkButtonText = '確認';
+const successText = '文字。';
+// const absolutelyWrongAnswer = '1';
+// const nextTaskButtonText = 'next';
+// const checkButtonText = 'check';
+// const successText = 'yeah';
 
 const FilmPage = (props: IProps) => {
     const [isSuccess, setIsSuccess] = useState(false);

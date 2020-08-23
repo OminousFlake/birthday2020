@@ -14,7 +14,7 @@ const coords = [
 ];
 
 const absolutelyWrongAnswer = /куница|юл(ька|ёк|яка|ёнок|я|ия)/i;
-const successText = 'Good';
+const successText = 'Подарок съел Ктулху';
 
 const PlacesPage = (props: IProps) => {
     const [isSuccess, setIsSuccess] = useState(false);

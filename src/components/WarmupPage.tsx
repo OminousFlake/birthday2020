@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const WarmupPage = (props: IProps) => {
-    const [count, setCount] = useState(5);
+    const [count, setCount] = useState(60);
 
     useEffect(() => {
         if (!count) return;

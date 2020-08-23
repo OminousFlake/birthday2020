@@ -21,7 +21,7 @@ const lines = [
 ];
 
 const absolutelyWrongAnswer = /aladdin|аладдин/i;
-const successText = 'Good';
+const successText = 'Подарок ближе, чем ты думала';
 
 const NotesPage = (props: IProps) => {
     const [isSuccess, setIsSuccess] = useState(false);

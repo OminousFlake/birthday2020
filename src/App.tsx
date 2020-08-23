@@ -76,7 +76,7 @@ const warmupSteps: Array<IStepObject> = [
         answer: /волан(-|\s)де(-|\s)морт/i
     },
     {
-        textContent: 'Опять. Будь, пожалуйста, внимательнее.Исправь',
+        textContent: 'Опять. Будь, пожалуйста, внимательнее. Исправь',
         answer: /волан(-|\s)де(-|\s)морт/i
     },
     {
@@ -126,14 +126,14 @@ const App = () => {
             case 1:
                 return <TablePage goToNextStep={goToNextStep}/>
             case 2:
-                return <FilmPage goToNextStep={goToNextStep}/>
-            case 3:
                 return <NotesPage goToNextStep={goToNextStep}/>;
+            case 3:
+                return <FilmPage goToNextStep={goToNextStep}/>
             case 4:
                 return <PlacesPage goToNextStep={goToNextStep}/>
             default:
                 return <div>
-                    Победа после обеда!
+                    <img src="https://thumbs.gfycat.com/YearlyAliveKilldeer-size_restricted.gif" alt="victory"/>
                 </div>;
         }
     }
