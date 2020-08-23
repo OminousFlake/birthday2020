@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/birthday2020/static/css/main.aa396767.chunk.css",
-    "main.js": "/birthday2020/static/js/main.d306f180.chunk.js",
-    "main.js.map": "/birthday2020/static/js/main.d306f180.chunk.js.map",
+    "main.css": "/birthday2020/static/css/main.2ada3fac.chunk.css",
+    "main.js": "/birthday2020/static/js/main.2e5a7726.chunk.js",
+    "main.js.map": "/birthday2020/static/js/main.2e5a7726.chunk.js.map",
     "runtime-main.js": "/birthday2020/static/js/runtime-main.998078e1.js",
     "runtime-main.js.map": "/birthday2020/static/js/runtime-main.998078e1.js.map",
     "static/js/2.04bc7a1a.chunk.js": "/birthday2020/static/js/2.04bc7a1a.chunk.js",
     "static/js/2.04bc7a1a.chunk.js.map": "/birthday2020/static/js/2.04bc7a1a.chunk.js.map",
     "index.html": "/birthday2020/index.html",
-    "precache-manifest.bb3d9eb1047cafe160e1adf8828278dc.js": "/birthday2020/precache-manifest.bb3d9eb1047cafe160e1adf8828278dc.js",
+    "precache-manifest.76da008b08378d22d284dad8bcf56711.js": "/birthday2020/precache-manifest.76da008b08378d22d284dad8bcf56711.js",
     "service-worker.js": "/birthday2020/service-worker.js",
-    "static/css/main.aa396767.chunk.css.map": "/birthday2020/static/css/main.aa396767.chunk.css.map",
+    "static/css/main.2ada3fac.chunk.css.map": "/birthday2020/static/css/main.2ada3fac.chunk.css.map",
     "static/js/2.04bc7a1a.chunk.js.LICENSE.txt": "/birthday2020/static/js/2.04bc7a1a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.998078e1.js",
     "static/js/2.04bc7a1a.chunk.js",
-    "static/css/main.aa396767.chunk.css",
-    "static/js/main.d306f180.chunk.js"
+    "static/css/main.2ada3fac.chunk.css",
+    "static/js/main.2e5a7726.chunk.js"
   ]
 }
