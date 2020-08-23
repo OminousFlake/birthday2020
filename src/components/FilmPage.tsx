@@ -9,7 +9,7 @@ interface IProps {
 const films = [
     {
         name: 'これは人々ではありませんか？ これは人よりも悪いです。 これらは街で最高の人です',
-        positions: '[8,9,12]'
+        positions: '[7,8,9,12]'
     },
 
     {
@@ -39,18 +39,14 @@ const films = [
 
     {
         name: '例えば、ロンドンでは、犬は男の友人です。 そして、私たちの家のマネージャーは男の友人です',
-        positions: '[3,4,6,11,16,17]'
+        positions: '[1,3,4,6,11,14,16,17]'
     },
 ];
 
-const absolutelyWrongAnswer = 'カーラ';
+const absolutelyWrongAnswer = 'カーラ|チャールズ';
 const nextTaskButtonText = 'さらに';
 const checkButtonText = '確認';
 const successText = '文字。';
-// const absolutelyWrongAnswer = '1';
-// const nextTaskButtonText = 'next';
-// const checkButtonText = 'check';
-// const successText = 'yeah';
 
 const FilmPage = (props: IProps) => {
     const [isSuccess, setIsSuccess] = useState(false);
