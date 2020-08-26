@@ -72,7 +72,7 @@ const warmupSteps: Array<IStepObject> = [
         answer: /волан(-|\s)де(-|\s)морт/i
     },
     {
-        textContent: 'Ты написал с ошибкой',
+        textContent: 'Ты написала с ошибкой',
         answer: /волан(-|\s)де(-|\s)морт/i
     },
     {

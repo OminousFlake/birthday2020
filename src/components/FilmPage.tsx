@@ -43,7 +43,7 @@ const films = [
     },
 ];
 
-const absolutelyWrongAnswer = 'カーラ|チャールズ';
+const absolutelyWrongAnswer = /カーラ|チャールズ/i;
 const nextTaskButtonText = 'さらに';
 const checkButtonText = '確認';
 const successText = '文字。';
@@ -64,7 +64,7 @@ const FilmPage = (props: IProps) => {
     }
 
     const checkAnswers: THandleCheck = () => {
-        if (inputValue === absolutelyWrongAnswer) {
+        if (absolutelyWrongAnswer.test(inputValue)) {
             setIsSuccess(true);
         }
         setInputValue('');
